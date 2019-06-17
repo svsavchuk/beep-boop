@@ -1,0 +1,15 @@
+ #top-text {
+  padding-top: 18px;
+}
+
+#bottom-line {
+  margin-top: 80px
+}
+
+.red-text {
+  color: #F0878D;
+}
+
+#result-section {
+  display: none;
+}

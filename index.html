@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- My own CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <!-- My own JavaScript -->
+  <script src="js/scripts.js"></script>
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Beep Boop</title>
+
+</head>
+
+<body class="bg-light text-dark">
+
+  <div id="top-background">
+    <img class="img-fluid" src="img/numbers.png" alt="img">
+  </div>
+
+  <div class="container" id="top-text">
+    <h1 class="text-dark">Beep Boop</h1>
+    <p class="text-info">Please fill out the fields below.</p>
+    <hr>
+  </div>
+
+  <div class="container">
+    <form id="form1">
+      <div class="form-group">
+        <label for="name">Your First Name</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Your First Name" value="">
+      </div>
+      <div class="form-group">
+        <label for="number">Any Number</label>
+        <input type="number" class="form-control" id="number" name="number" placeholder="Any Number" value="">
+      </div>
+      <button type="submit" name="button" class="btn btn-info">Get result</button>
+    </form>
+  </div>
+
+  <div class="container">
+    <div id="result-section">
+      <hr>
+      <p class="red-text"><em><span id="result-text"></span></em></p>
+    </div>
+  </div>
+
+  <hr class="bg-info" id="bottom-line">
+
+  <div class="container text-center">
+    <a href="https://github.com/svsavchuk"><i class="fa fa-github-square fa-2x text-warning" data-toggle="tooltip" data-placement="bottom" title="View source code on GitHub."></i></a>
+    <a href="https://www.linkedin.com/in/serhiy-savchuk-198617183/"><i class="fa fa-linkedin-square fa-2x text-warning" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"></i></a>
+    <a href="mailto:svsavchuk@hotmail.com"><i class="fa fa-envelope-square fa-2x text-warning" data-toggle="tooltip" data-placement="bottom" title="Email"></i></a>
+    <a href="tel:14252996972"><i class="fa fa-phone-square fa-2x text-warning" data-toggle="tooltip" data-placement="bottom" title="Phone"></i></a>
+    <p id="copyright" class="text-info"><small>© Serhiy Savchuk</small></p>
+  </div>
+
+</body>
+
+</html>
